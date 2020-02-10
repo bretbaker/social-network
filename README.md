@@ -1,1 +1,3 @@
-# social-network
+# Social Network
+
+demo user:
