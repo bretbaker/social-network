@@ -56,7 +56,7 @@ const CreateProfile = ({ createProfile, history, getCurrentProfile }) => {
         <i className='fas fa-user'></i> Let's get some information to make your
         profile stand out
       </p>
-      <small>* = required field</small>
+      {/* <small>* = required field</small> */}
       <form className='form' onSubmit={e => onSubmit(e)}>
         {/* <div className='form-group'>
           <select name='status' value={status} onChange={e => onChange(e)}>
@@ -110,9 +110,7 @@ const CreateProfile = ({ createProfile, history, getCurrentProfile }) => {
             value={location}
             onChange={e => onChange(e)}
           />
-          <small className='form-text'>
-            City & state suggested (eg. Boston, MA)
-          </small>
+          <small className='form-text'>City {'&'} state (eg. Boston, MA)</small>
         </div>
         {/* <div className='form-group'>
           <input

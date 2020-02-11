@@ -8,9 +8,9 @@ const ProfileSchema = new mongoose.Schema({
   company: {
     type: String
   },
-  website: {
-    type: String
-  },
+  // website: {
+  //   type: String
+  // },
   location: {
     type: String
   },
