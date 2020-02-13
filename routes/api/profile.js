@@ -22,8 +22,8 @@ router.get('/me', auth, async (req, res) => {
       .populate('user', ['name', 'avatar']);
     // if no profile found throw error
     if (!profile) {
-      console.log(req.user.id);
-      console.log(req.user);
+      // console.log(req.user.id);
+      // console.log(req.user);
       return res
         .status(400)
         .json({ msg: `No profile for user ${req.user.id}` });
@@ -82,8 +82,8 @@ router.post('/', [auth], async (req, res) => {
   if (instagram) profileFields.social.instagram = instagram;
   // main function
   try {
-    console.log(req.user.id);
-    console.log(profileFields);
+    // console.log(req.user.id);
+    // console.log(profileFields);
     // search db for profile by id from user table
     let profile = await Profile.findOne({ user: req.user.id });
     // if profile exists update with new inputs
