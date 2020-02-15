@@ -4,25 +4,25 @@
 
 Right click image above and open link in new tab or window.
 
-Demo user:
+**Demo user**:
 
 - Username: demo@email.com
 - Password: password
 
-Summary:
+**Summary**:
 
 - This is a small social network application built to showcase my ability to utilize the full MERN stack.
 - This app exhibits full CRUD functionality and user authentication.
 - Users are able to register, login, create a profile, edit their profile, create posts, edit posts, delete posts, like posts, unlike posts, and delete their account.
 
-Front end:
+**Front end**:
 
 - React
 - Redux
 - Axios
 - Moment
 
-Back end:
+**Back end**:
 
 - Node
 - Express
