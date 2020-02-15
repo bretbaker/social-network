@@ -1,7 +1,5 @@
 # Social Network
 
-Right click image below and open link in new tab or window.
-
 <a href='https://sn-0.herokuapp.com/' target='_blank'><img src='https://github.com/bretbaker/social-network/blob/master/readme-img/readme-img.svg' alt='Image of application'></a>
 
 **Demo user**:
